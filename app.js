@@ -6,5 +6,8 @@ btn.onmouseleave = () => {
     btn.innerText = "No"
 }
 btn.onclick = () => {
-    alert("Sabia que dirias que si, mi amor :3")
+    setTimeout(() => {
+        alert("Sabia que dirias que si, mi amor :3")    
+    }, 1500);
+    
 }
